@@ -1,0 +1,8 @@
+./array_sum
+./array_sum
+./array_sum
+./array_sum
+./array_sum
+./array_sum
+./array_sum
+./array_sum

@@ -1,0 +1,8 @@
+./smt
+./smt
+./smt
+./smt
+./smt
+./smt
+./smt
+./smt

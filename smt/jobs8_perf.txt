@@ -1,0 +1,8 @@
+perf stat -I 10000 -C 8 -e instructions,cycles numactl --physcpubind=8 ./smt 
+perf stat -I 10000 -C 9 -e instructions,cycles numactl --physcpubind=9 ./smt 
+perf stat -I 10000 -C 10 -e instructions,cycles numactl --physcpubind=10 ./smt 
+perf stat -I 10000 -C 11 -e instructions,cycles numactl --physcpubind=11 ./smt 
+perf stat -I 10000 -C 12 -e instructions,cycles numactl --physcpubind=12 ./smt 
+perf stat -I 10000 -C 13 -e instructions,cycles numactl --physcpubind=13 ./smt 
+perf stat -I 10000 -C 14 -e instructions,cycles numactl --physcpubind=14 ./smt 
+perf stat -I 10000 -C 15 -e instructions,cycles numactl --physcpubind=15 ./smt 

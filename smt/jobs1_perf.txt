@@ -1,0 +1,1 @@
+perf stat -I 10000 -C 8 -e instructions,cycles numactl --physcpubind=8 ./smt 

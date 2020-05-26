@@ -1,0 +1,2 @@
+perf stat -I 10000 -C 8 -e instructions,cycles numactl --physcpubind=8 ./array_sum 
+perf stat -I 10000 -C 14 -e instructions,cycles numactl --physcpubind=14 ./array_sum 
