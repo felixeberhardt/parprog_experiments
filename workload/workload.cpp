@@ -84,7 +84,7 @@ public:
 
     // shuffle indices
     std::srand((size_t) m_array);
-    for(size_t i = m_elements - 1; i >= 0; --i) {
+    for(size_t i = m_elements - 1; i > 0; --i) {
         size_t r = std::rand() % (m_elements - i);
         if(m_array[i] == r || m_array[r] == i) {
             continue;
